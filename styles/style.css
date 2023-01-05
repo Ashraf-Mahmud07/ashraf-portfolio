@@ -87,7 +87,8 @@ nav li {
     background-repeat: no-repeat;
     background-position: right bottom, left bottom;
 }
-section{
+
+section {
     margin-top: 130px;
 }
 
@@ -108,7 +109,7 @@ main {
 .section-title {
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 130px;
 }
 
 .section-description {
@@ -131,7 +132,8 @@ main {
 .info-description {
     font-weight: 700;
     font-size: 20px;
-    color: #474747;}
+    color: #474747;
+}
 
 /* what i do section styles */
 
@@ -177,4 +179,51 @@ main {
     width: 201px;
     height: 196px;
     font-size: 16px;
+}
+
+/* resume styles */
+
+.resume-title {
+    width: 218px;
+    height: 41px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #111010;
+}
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+
+.resume .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #0c0c0c;
+    width: 405px;
+    height: 34px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.resume .sub-title {
+    width: 309px;
+    height: 27px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    width: 511px;
+    height: 84px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+hr {
+    height: 2px;
+    width: 558px border: 1px solid #D1D1D1;
 }
