@@ -7,7 +7,8 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 51px 226px;
+    margin: 0px 226px;
+    padding-top: 51px;
 }
 
 .btn-primary {
@@ -67,13 +68,66 @@ nav li {
     font-size: 18px;
     color: #757575;
 }
-.contact{
+
+.contact {
     background-color: beige;
     color: #FD6E0A;
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;
 }
-.button{
+
+.button {
     margin: 30px;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: right bottom, left bottom;
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section styel */
+.about {
+    text-align: center;
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 128px 150px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.info-title {
+    color: #757575;
+    font-size: 20px;
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 20px;
+    color: #757575;
 }
