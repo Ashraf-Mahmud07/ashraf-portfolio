@@ -22,6 +22,11 @@ nav {
     padding: 18px 36px;
 }
 
+.ashraf {
+    width: 584px;
+    height: 676px;
+}
+
 nav ul {
     display: flex;
     align-items: center;
@@ -190,6 +195,7 @@ main {
     font-size: 30px;
     color: #111010;
 }
+
 .resume-content {
     display: flex;
     gap: 24px;
@@ -227,7 +233,34 @@ hr {
     height: 2px;
     width: 558px border: 1px solid #D1D1D1;
 }
-.resume-button{
+
+.resume-button {
     margin-top: 50px;
     text-align: center;
+}
+
+/* contact styles */
+.contact {
+    display: flex;
+    gap: 117px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.contact .section-title {
+    text-align: left;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.contact input[type="text"], input[type="email"], 
+textarea {
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    width: 100%;
+}
+
+.contact a {
+    text-decoration: none;
+    margin-right: 24px;
 }
