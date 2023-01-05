@@ -227,3 +227,7 @@ hr {
     height: 2px;
     width: 558px border: 1px solid #D1D1D1;
 }
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
